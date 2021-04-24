@@ -2,6 +2,10 @@
 
 **Author** : [Aloysious](https://github.com/AL0YSI0US) & [Mohsin](https://github.com/mbehi) **Version** : 1.0.0
 
+🚀 [Deployed App](https://vigorous-stonebraker-250a39.netlify.app/)
+
+<a href="https://trello.com/b/7OCGKRLx/best-books" align="center">Trello board</a> 
+
 ## Overview
 
 We will be creating a small app to track what books have impacted you, and what's recommended to read next.
