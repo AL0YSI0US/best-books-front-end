@@ -1,5 +1,3 @@
-'use strict'; 
-
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useAuth0 } from "@auth0/auth0-react";
