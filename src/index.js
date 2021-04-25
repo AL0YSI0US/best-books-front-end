@@ -7,10 +7,12 @@ import { Auth0Provider } from "@auth0/auth0-react";
 ReactDOM.render(
   <Auth0Provider
   domain="aloysious.us.auth0.com"
-  clientId="uEH9inT1PgNl7BW3jm7m0ZOHypqvIWDD"
+  clientId="ZP07iTTlSrWB37rkjnGoH4bPEnnNGHgs"
   redirectUri={window.location.origin}
 >
   <App />
 </Auth0Provider>,
 document.getElementById("root")
 );
+
+// redirectUri="https://vigorous-stonebraker-250a39.netlify.app/"

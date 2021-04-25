@@ -1,12 +1,9 @@
-'use strict';
 import React from 'react';
 import { withAuth0 } from '@auth0/auth0-react';
 import Header from './Header';
-import MyFavoriteBooks from './MyFavoriteBooks.js';
-import Login from './Login.js';
+import MyFavoriteBooks from './MyFavoriteBooks';
+import Login from './Login';
 import Profile from './Profile';
-
-// import Profile from './Profile.js';
 import Footer from './Footer';
 import IsLoadingAndError from './IsLoadingAndError';
 import {
@@ -19,19 +16,18 @@ import './App.css';
 class App extends React.Component {
 
   render() {
-    console.log('app', this.props);
+    const { user, isAuthenticated } = this.props.auth0;
+    console.log(user);
     return (
       <>
         <Router>
           <IsLoadingAndError>
-            <Header />
+            <Header isAuthenticated={isAuthenticated}/>
             <Switch>
-              <Route exact path="/" />
-              {/* TODO: if the user is logged in, render the `MyFavoriteBooks` component, if they are not, render the `Login` component */}
-              <Route path="/Login" component={Login} />
-              <Route path="/Profile" component={Profile} />
-              <Route path="/MyFavoriteBooks" component={MyFavoriteBooks} />
-              {/* TODO: add a route with a path of '/profile' that renders a `Profile` component */}
+              <Route exact path="/">{isAuthenticated ? <MyFavoriteBooks /> : <Login />}
+              </Route>
+              <Route exact path="/profile">{isAuthenticated ? <Profile userInfo={user} /> : ''} 
+              </Route>
             </Switch>
             <Footer />
           </IsLoadingAndError>
