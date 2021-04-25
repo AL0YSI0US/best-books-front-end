@@ -4,7 +4,7 @@
 
 🚀 [Deployed App](https://vigorous-stonebraker-250a39.netlify.app/)
 
-<a href="https://trello.com/b/7OCGKRLx/best-books" align="center">Trello board</a> 
+<a href="https://trello.com/b/qrG2StmE/am-best-books" align="center">Trello board</a> 
 
 ## Overview
 
