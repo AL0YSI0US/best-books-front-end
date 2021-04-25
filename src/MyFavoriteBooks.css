@@ -1,3 +1,16 @@
 .jumbotron{
   margin-bottom: 0;
+  background-image: ;
+}
+#myFavBooks {
+  font-family: 'Ubuntu', sans-serif;
+  text-shadow: 4px 4px 2px rgba(100, 91, 91, 0.6);
+  font-size: 32px;
+  font-weight: bold;
+}
+#collection {
+  font-size: 20px;
+}
+#btn.btn-danger.btn-block {
+  width: 60px;
 }
