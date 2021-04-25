@@ -10,7 +10,11 @@
 
 We will be creating a small app to track what books have impacted you, and what's recommended to read next.
 
+<br>
+
 ## Getting Started
+
+<br>
 
 ## Architecture
 
@@ -19,6 +23,8 @@ We will be creating a small app to track what books have impacted you, and what'
 **Dependencies :** npm | React / Bootstrap | auth0 |
 
 **Tools :** VS Code | GitHub | Trello | Slack
+
+<br>
 
 ## Change Log
 
@@ -30,7 +36,9 @@ We will be creating a small app to track what books have impacted you, and what'
 
 04-24-2021 2:39pm ✔️ **Successfully Deployed from Heroku** · v1 · main@7746173
 
+<br>
 <h2 align="center">⏰ T I M E . E S T I M A T E S ⏰</h2>
+<br>
 
 ## ⚙️ Set up your front-end repository : Feature One
 
@@ -63,6 +71,7 @@ Finish time: 2:00
 
 Actual time needed to complete: 60 minutes
 ```
+<br>
 
 ## ⚙️ Authentication : Feature Two
 
@@ -77,10 +86,13 @@ Finish time: _____
 
 Actual time needed to complete: _____
 ```
-
+<br>
 <h2 align="center">❤️ Credit and Collaborations 👥</h2>
+<br>
 
 + Shout out to { Allee } for helping us with setting up our file path routes
+
+<br>
 
 ## Resources
 
@@ -90,5 +102,12 @@ Actual time needed to complete: _____
 * [NPM JS Docs](https://docs.npmjs.com/)
 * [Express JS Docs](http://expressjs.com/en/4x/api.html)
 * [dotenv Docs](https://www.npmjs.com/package/dotenv)
+
+
+This work by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/AL0YSI0US/" property="cc:attributionName" rel="cc:attributionURL">AL0YSI0US</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />
+
+This license lets others distribute, remix, adapt, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.
+
+<br>
 
 [Reflections ⇒](reflections.md)
