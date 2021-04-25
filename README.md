@@ -1,4 +1,4 @@
-# best-books-app
+# best-books-app ![open-pr](https://img.shields.io/github/issues-pr-raw/AL0YSI0US/best-books-front-end) ![closed-pr](https://img.shields.io/github/issues-pr-closed/AL0YSI0US/best-books-front-end) [![Netlify Status](https://api.netlify.com/api/v1/badges/26cb2429-28cb-4d5f-bc0e-e0ae8782ab82/deploy-status)](https://app.netlify.com/sites/vigorous-stonebraker-250a39/deploys)
 
 **Author** : [Aloysious](https://github.com/AL0YSI0US) & [Mohsin](https://github.com/mbehi) **Version** : 3.6.0
 
