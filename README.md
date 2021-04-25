@@ -1,10 +1,10 @@
 # best-books-app ![open-pr](https://img.shields.io/github/issues-pr-raw/AL0YSI0US/best-books-front-end) ![closed-pr](https://img.shields.io/github/issues-pr-closed/AL0YSI0US/best-books-front-end) [![Netlify Status](https://api.netlify.com/api/v1/badges/26cb2429-28cb-4d5f-bc0e-e0ae8782ab82/deploy-status)](https://app.netlify.com/sites/vigorous-stonebraker-250a39/deploys)
 
-**Author** : [Aloysious](https://github.com/AL0YSI0US) & [Mohsin](https://github.com/mbehi) **Version** : 3.6.0
+**Author** : [Aloysious](https://github.com/AL0YSI0US) & [Mohsin](https://github.com/mbehi) **Version** : 4.6.0
 
 🚀 [Deployed App](https://vigorous-stonebraker-250a39.netlify.app/)
 
-<a href="https://trello.com/b/qrG2StmE/am-best-books" align="center">Trello board</a> 
+<a href="https://trello.com/b/qrG2StmE/am-best-books" align="center">Trello board</a>
 
 ## Overview
 
@@ -20,7 +20,7 @@ We will be creating a small app to track what books have impacted you, and what'
 
 **Languages :** JavaScript | HTML | CSS | Markdown
 
-**Dependencies :** npm | React / Bootstrap | auth0 
+**Dependencies :** npm | React / Bootstrap | auth0
 
 **Tools :** VS Code | GitHub | Trello | Slack
 
@@ -71,6 +71,7 @@ Finish time: 2:00
 
 Actual time needed to complete: 60 minutes
 ```
+
 <br>
 
 ## ⚙️ Authentication : Feature Two
@@ -86,6 +87,7 @@ Finish time: _____
 
 Actual time needed to complete: _____
 ```
+
 <br>
 <h2 align="center">❤️ Credit and Collaborations 👥</h2>
 <br>
@@ -102,7 +104,6 @@ Actual time needed to complete: _____
 * [NPM JS Docs](https://docs.npmjs.com/)
 * [Express JS Docs](http://expressjs.com/en/4x/api.html)
 * [dotenv Docs](https://www.npmjs.com/package/dotenv)
-
 
 This work by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/AL0YSI0US/" property="cc:attributionName" rel="cc:attributionURL">AL0YSI0US</a> & <a href="https://github.com/mbehi">Mohsin</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />
 
