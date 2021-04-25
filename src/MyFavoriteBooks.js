@@ -6,8 +6,6 @@ import './MyFavoriteBooks.css';
 
 class MyFavoriteBooks extends React.Component {
   render() {
-    const { user, isAuthenticated } = this.props.auth0;
-    console.log(user);
     return (
       <div>
         <Jumbotron>
