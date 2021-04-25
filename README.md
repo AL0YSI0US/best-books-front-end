@@ -20,7 +20,7 @@ We will be creating a small app to track what books have impacted you, and what'
 
 **Languages :** JavaScript | HTML | CSS | Markdown
 
-**Dependencies :** npm | React / Bootstrap | auth0 |
+**Dependencies :** npm | React / Bootstrap | auth0 
 
 **Tools :** VS Code | GitHub | Trello | Slack
 
