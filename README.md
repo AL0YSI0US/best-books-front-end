@@ -87,4 +87,4 @@ Actual time needed to complete: _____
 * [Express JS Docs](http://expressjs.com/en/4x/api.html)
 * [dotenv Docs](https://www.npmjs.com/package/dotenv)
 
-[Reflections ⇒](https://github.com/AL0YSI0US/reading-notes/blob/main/reflections.md)
+[Reflections ⇒](reflections.md)
