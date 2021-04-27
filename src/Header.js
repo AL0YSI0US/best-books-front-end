@@ -1,10 +1,16 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from "react-router-dom";
+
+// B O O T S T R A P P I N '
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-import { Link } from "react-router-dom";
-import './Header.css';
+
+// Component created by { auth0 } : https://auth0.com/docs/quickstart/spa/react
 import LogoutButton from './LogoutButton';
+
+// C S S 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './Header.css';
 
 class Header extends React.Component {
   render() {
@@ -13,8 +19,8 @@ class Header extends React.Component {
         <Container>
           <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Navbar.Brand>My Favorite Books</Navbar.Brand>
-            <Link to="/">Home</Link>
-            <Link to="/profile">Profile</Link>
+            <Link id="home" to="/">Home</Link>
+            <Link id="profile" to="/profile">Profile</Link>
             {this.props.isAuthenticated ? <LogoutButton /> : ''}
             {/* Collaborations: Allee assisted us with the isAuthenticated ternary */}
           </Navbar>

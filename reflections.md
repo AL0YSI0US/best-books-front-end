@@ -2,8 +2,8 @@
 
 // TODO
 
-- [ ] create CSS files / add swagger
-- [ ] get the profile link to not appear until someone has logged in
+- [X] create CSS files / add swagger
+- [X] get the profile link to not appear until someone has logged in
 - [ ] create rules for the repository so we have a production branch
 
 // Done

@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+
+// Components created by { auth0 } : https://auth0.com/docs/quickstart/spa/react
 import { Auth0Provider } from "@auth0/auth0-react";
 
-// TODO: wrap everything in Auth0
+// TODO: wrap everything in Auth0   ✔️- done
 ReactDOM.render(
   <Auth0Provider
   domain="aloysious.us.auth0.com"
@@ -14,5 +16,3 @@ ReactDOM.render(
 </Auth0Provider>,
 document.getElementById("root")
 );
-
-// redirectUri="https://vigorous-stonebraker-250a39.netlify.app/"

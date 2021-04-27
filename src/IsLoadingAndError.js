@@ -1,4 +1,6 @@
 import React from 'react';
+
+// Component created by { auth0 } : https://auth0.com/docs/quickstart/spa/react
 import { withAuth0 } from '@auth0/auth0-react';
 
 class IsLoadingAndError extends React.Component {
