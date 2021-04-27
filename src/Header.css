@@ -8,3 +8,14 @@ a:hover{
 .navbar.navbar-expand-lg.navbar-dark.bg-dark {
   margin-bottom: 30px;
 }
+.btn.btn-danger.btn-block {
+  width: 100px;
+  margin-left: 160px;
+}
+#home {
+margin-left: 30px;
+}
+
+#profile {
+  margin-left: 30px;
+}

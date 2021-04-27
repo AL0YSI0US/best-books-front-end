@@ -1,9 +1,13 @@
 import React from "react";
-import { useAuth0 } from "@auth0/auth0-react";
-import Image from 'react-bootstrap/Image';
-import Container from "react-bootstrap/Container";
-
+// Component created by { auth0 } : https://auth0.com/docs/quickstart/spa/react
 // https://auth0.com/docs/quickstart/spa/react#configure-the-auth0provider-component
+import { useAuth0 } from "@auth0/auth0-react";
+
+// B O O T S T R A P P I N '
+import Container from "react-bootstrap/Container";
+import Image from 'react-bootstrap/Image';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Profile = () => {
   const { user, isAuthenticated, isLoading } = useAuth0();

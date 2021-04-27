@@ -1,16 +1,22 @@
 import React from 'react';
+
+// Components created by { auth0 } : https://auth0.com/docs/quickstart/spa/react
+// https://auth0.com/docs/quickstart/spa/react#configure-the-auth0provider-component
 import { withAuth0 } from '@auth0/auth0-react';
-import Header from './Header';
-import MyFavoriteBooks from './MyFavoriteBooks';
 import Login from './Login';
 import Profile from './Profile';
-import Footer from './Footer';
 import IsLoadingAndError from './IsLoadingAndError';
+
+// C O M P O N E N T S 
+import Header from './Header';
+import MyFavoriteBooks from './MyFavoriteBooks';
+import Footer from './Footer';
 import {
   BrowserRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
+// C S S 
 import './App.css';
 
 class App extends React.Component {

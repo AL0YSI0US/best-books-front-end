@@ -1,4 +1,6 @@
 import React from "react";
+
+// Components created by { auth0 } : https://auth0.com/docs/quickstart/spa/react
 import { useAuth0 } from "@auth0/auth0-react";
 
 const LogoutButton = () => {
