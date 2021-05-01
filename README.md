@@ -108,6 +108,23 @@ Actual time needed to complete: 360 minutes
 ```
 
 <br>
+
+## ⚙️ Book Component: Feature Three
+
+> As a user, I'd like to see my list of books, so that I can track what's impacted me, and what's recommended to me.
+
+```shell
+Estimate of time needed to complete: 120 minutes
+
+Start time: 12:00
+
+Finish time: 12:45
+
+Actual time needed to complete: 45 minutes
+```
+
+
+<br>
 <h2 align="center">❤️ Credit and Collaborations 👥</h2>
 <br>
 
