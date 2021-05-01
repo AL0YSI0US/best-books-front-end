@@ -5,9 +5,11 @@ import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+// C O M P O N E N T S
+import BestBooks from './BestBook';
+
 //C S S 
 import './MyFavoriteBooks.css';
-
 
 class MyFavoriteBooks extends React.Component {
   render() {
@@ -18,8 +20,9 @@ class MyFavoriteBooks extends React.Component {
             <h1 id="myFavBooks" class="text-center">My Favorite Books</h1>
             <p id="collection" class="text-center">
               This is a collection of my favorite books
-          </p>
-          </Jumbotron>          
+            </p>
+          </Jumbotron>
+          <BestBooks />
         </Container>
       </>
     )

@@ -21,3 +21,9 @@ Imported {`Syncopate`} from *google fonts*  [(docs)](https://fonts.google.com/sp
 used [cssgenerator](https://cssgenerator.org/text-shadow-css-generator.html) to create shadow effects on things
 
 Learned how to center an HTML elements text : `class="text-center"`!!!
+
+
+
+````bash
+REACT_APP_BACKEND_URL=http://localhost:3001;
+````
