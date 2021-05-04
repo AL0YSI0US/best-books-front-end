@@ -35,6 +35,11 @@ npm start
 
 <br>
 
+4. Create a `.env` file and include the following:
+   ````bash
+   REACT_APP_BACKEND_URL=http://localhost:3002
+   ````
+
 ## Architecture
 
 **Languages :** JavaScript | HTML | CSS | Markdown
@@ -122,7 +127,6 @@ Finish time: 12:45
 
 Actual time needed to complete: 45 minutes
 ```
-
 
 <br>
 <h2 align="center">❤️ Credit and Collaborations 👥</h2>
