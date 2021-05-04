@@ -25,12 +25,12 @@ class BestBooks extends React.Component {
     const { user } = this.props.auth0;
     console.log(user);
     console.log('about to request book data');
-    
+
     const bookData = await axios.get(`${process.env.REACT_APP_BACKEND_URL}/books`);
     console.log('book data exists!', bookData.data.favoriteBooks);
 
     this.setState({
-      bookData: bookData.data
+      bookData: bookData.data.favoriteBooks
     });
   }
 
@@ -41,17 +41,18 @@ class BestBooks extends React.Component {
       <>
         <Container>
           <Carousel>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src="https://via.placeholder.com/800x400/111111/111111?text=' '"
-                alt={`slide`}
-              />
-              <Carousel.Caption>
-                something should happen eventually . . . 
-              </Carousel.Caption>
-            </Carousel.Item>
-            {this.state.bookData && this.state.bookData.map(book => <h3 key={book._id}>{book.name}</h3>)}
+            {this.state.bookData && this.state.bookData.map(book =>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src="https://via.placeholder.com/800x400/111111/111111?text=' '"
+                  alt={`slide`}
+                />
+                <Carousel.Caption>
+                  {book.name}
+                </Carousel.Caption>
+              </Carousel.Item>
+            )}
           </Carousel>
         </Container>
       </>
